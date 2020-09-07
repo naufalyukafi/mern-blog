@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Login, Home, Register, About } from "../../pages";
+import { Login, Register, About, MainApp } from "../../pages";
 const Routes = () => {
   return (
     <Router>
@@ -15,7 +15,7 @@ const Routes = () => {
           <About />
         </Route>
         <Route path="/">
-          <Home />
+          <MainApp />
         </Route>
       </Switch>
     </Router>
