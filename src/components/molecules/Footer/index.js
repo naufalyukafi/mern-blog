@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        <p>Copyright</p>
+        <p>Copyright 2020 By Yukafi DEV</p>
       </div>
     </div>
   );
